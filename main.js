@@ -60,7 +60,7 @@ now.textContent = new Date().toLocaleDateString('es-ES', options);
 
 
 // contador de dias que inicie desde 04/01/2024
-const startDate = new Date('2024-04-01');
+const startDate = new Date('2024-04-02');
 const today = new Date();
 const diff = today - startDate;
 const days = Math.floor(diff / (1000 * 60 * 60 * 24));
